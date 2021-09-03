@@ -1,6 +1,9 @@
+/* font google */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
 body{
     margin: 0;
-    font-family: 'Lora','Palatino Linotype','Book Antiqua','New York','DejaVu serif','serif';
+    font-family: 'Comfortaa', cursive;
 }
 header{
     max-width: 20rem;
