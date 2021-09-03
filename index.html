@@ -10,11 +10,10 @@
 </head>
 <body>
     <header>
-        <h1>theme simple modern</h1>
+        <h1 id="header_title">{{ title }}</h1>
     </header>
     <main>
         <section>
-            <p>Content...</p>
             <div id="image_card">
                 <figure v-for="image in images_data">
                     <img v-bind:src="image.url" v-bind:alt="image.name">
@@ -24,7 +23,7 @@
         </section>
     </main>
     <footer>
-        <p>created by abrahamalanya, with love</p>
+        <p id="footer_copyright">{{ copyright }}</p>
     </footer>
 
     <!-- vue2 -->

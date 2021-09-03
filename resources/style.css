@@ -8,6 +8,7 @@ body{
 header{
     max-width: 20rem;
     margin: 0 auto;
+    text-align: center;
 }
 main{
     max-width: 20rem;
@@ -28,12 +29,14 @@ figure{
     max-width: 20rem;
     font-size: 0.9em;
     margin: 0;
+    padding-bottom: 0.9em;
 }
 figure img{
     max-width: 100%;
-    border-radius: 0.625em;
+    border-radius: 0.3125em;
 }
-
 figure figcaption{
-    font-size: 0.875em;
+    font-size: 0.625em;
+    text-align: center;
+    color: #b9b9b9;
 }
