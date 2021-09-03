@@ -15,14 +15,20 @@
     <main>
         <section>
             <p>Content...</p>
-            <figure>
-                <img src="https://image.flaticon.com/icons/png/512/4897/4897054.png" alt="icon">
-                <figcaption>text description example</figcaption>
-            </figure>
+            <div id="image_card">
+                <figure v-for="image in images_data">
+                    <img v-bind:src="image.url" v-bind:alt="image.name">
+                    <figcaption>{{ image.description }}</figcaption>
+                </figure>
+            </div>
         </section>
     </main>
     <footer>
         <p>created by abrahamalanya, with love</p>
     </footer>
+
+    <!-- vue2 -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
+    <script src="./resources/script.js"></script>
 </body>
 </html>
