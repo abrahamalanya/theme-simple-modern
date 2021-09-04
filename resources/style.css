@@ -4,6 +4,7 @@
 body{
     margin: 0;
     font-family: 'Comfortaa', cursive;
+    /* background: ; */
 }
 header{
     max-width: 20rem;
@@ -39,4 +40,14 @@ figure figcaption{
     font-size: 0.625em;
     text-align: center;
     color: #b9b9b9;
+}
+
+/* button */
+.btn{
+    border-radius: 0.3125em;
+    border: none;
+}
+.btn-primary{
+    background-color: #5b6cca;
+    color: #fff;
 }
